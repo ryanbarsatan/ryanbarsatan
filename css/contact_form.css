@@ -1,0 +1,41 @@
+.title {
+	display: block;
+	text-align: center;
+	font-family: ailerons;
+	font-size: 2.5em;
+	margin: 20px;
+	color:white;
+	background: #6ac39b; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #6ac39b 0%, #00a79d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  #6ac39b 0%,#00a79d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  #6ac39b 0%,#00a79d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ac39b', endColorstr='#00a79d',GradientType=1 ); 
+}
+
+.contact-info {
+	text-align: center;
+	font-family: Didact Gothic;
+}
+
+label {
+	font-family: Didact Gothic;
+}
+
+.ui.icon.contact {
+	color: #00a79d;
+}
+
+.success-description {
+	text-align: center;
+	padding: 20px;
+	font-family: Raleway;
+	font-size: 1.5em;
+}
+
+.ui.dimmer {
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.ui.modal {
+	border-radius: 0;
+}

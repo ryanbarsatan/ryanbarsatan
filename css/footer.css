@@ -1,0 +1,89 @@
+#footer {
+	background: #6ac39b; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #6ac39b 0%, #00a79d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  #6ac39b 0%,#00a79d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  #6ac39b 0%,#00a79d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ac39b', endColorstr='#00a79d',GradientType=1 ); 
+	display: block;
+	padding-bottom: 10px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.footer-menu {
+	font-family: Raleway;
+	font-size: 1.2em;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.footer-menu a{
+	text-decoration: underline;
+	padding: 10px;
+	color: white;
+}
+
+.footer-description {
+	font-family: roboto;
+	font-size: 1.5em;
+}
+
+.footer-buttons {
+	display: block;
+	color: white;
+}
+
+.ui.button.go-btn {
+	margin: 10px;
+	font-family: panton;
+	background-color: white;
+	color: #00b164;
+	-webkit-box-shadow: 4px 3px 15px 2px rgba(0,0,0,0.10);
+	-moz-box-shadow: 4px 3px 15px 2px rgba(0,0,0,0.10);
+	box-shadow: 4px 3px 15px 2px rgba(0,0,0,0.10);
+}
+
+.ui.button.go-btn:hover {
+	opacity: .9;
+	box-shadow: none;
+}
+
+.social-btns-small {
+	display: block;
+}
+
+.social-btns-small a{
+	color: white;
+}
+
+.fine-print{
+	font-family: didact gothic;
+	color: white;
+}
+
+.newsletter-description {
+	font-size: 1.8em;
+	font-family: roboto;
+}
+
+.ui.button {
+	margin: 10px;
+	font-family: Raleway;
+	background-color: #00b164;
+	color: white;
+}
+
+@media only screen and (min-width: 760px) {
+
+	.social-btns-large a{
+		color: white;
+	}
+	
+	.newsletter-title{
+		line-height: 1em;
+		padding: 10px;
+		font-size: 3em;
+	}
+
+
+}

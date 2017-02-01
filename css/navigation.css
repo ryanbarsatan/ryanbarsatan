@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+@font-face{ 
+	font-family: ailerons;
+	src: url(/fonts/Ailerons.otf);
+}
+
+.ui.fixed.borderless.menu {
+	font-family: Raleway;
+	background-color: white;
+	height: 65px;
+	color: black;
+	border-style: none;
+	box-shadow: none;
+}
+
+.ui.right.aligned.borderless.menu.desktop {
+	display: none;
+	border-style: none;
+	box-shadow: none;
+}
+
+.ui.item.logo {
+	margin-right: 40%;
+}
+
+.ui.left.aligned.borderless.menu.mobile {
+	display: flex;
+	font-family: Raleway;
+	transition: background 0.5s linear;
+	background-color: white;
+	border-style: none;
+	box-shadow: none;
+}
+.ui.button.nav-btn {
+	background: #6ac39b; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #6ac39b 0%, #00a79d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  #6ac39b 0%,#00a79d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  #6ac39b 0%,#00a79d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ac39b', endColorstr='#00a79d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	color: white;
+	border-radius: 0;
+	font-family: Raleway;
+	font-weight: 200;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.40);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.40);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.40);
+}
+
+.ui.button.nav-btn:hover {
+	box-shadow: none;
+	color: white;
+	background: #6ac39b; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #6ac39b 0%, #00a79d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  #6ac39b 0%,#00a79d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  #6ac39b 0%,#00a79d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ac39b', endColorstr='#00a79d',GradientType=1 ); 
+}
+
+.ui.button.contact-btn {
+	background: #6ac39b; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #6ac39b 0%, #00a79d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  #6ac39b 0%,#00a79d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  #6ac39b 0%,#00a79d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ac39b', endColorstr='#00a79d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	color: white;
+	margin: 20px;
+	border-radius: 0;
+	font-family: Raleway;
+	font-weight: 200;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.40);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.40);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.40);
+}
+
+.ui.button.contact-btn:hover {
+	box-shadow: none;
+	color: white;
+	background: #6ac39b; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #6ac39b 0%, #00a79d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  #6ac39b 0%,#00a79d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  #6ac39b 0%,#00a79d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ac39b', endColorstr='#00a79d',GradientType=1 ); 
+}
+
+
+
+@media only screen and (min-width: 760px) {
+
+	.ui.item.logo {
+		margin-left: 2%;
+	}
+
+	.ui.right.aligned.borderless.menu.desktop {
+		display: flex;
+		font-family: Raleway;
+		transition: background 0.5s linear;
+		background-color: white;
+		color: black;
+	}
+
+	.ui.left.aligned.borderless.menu.mobile {
+		display: none;
+	}
+
+}
+
+

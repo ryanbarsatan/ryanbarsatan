@@ -1,0 +1,204 @@
+.header {
+	height: 500px;
+	width: 100%;
+	display: table;
+	position: relative;
+	text-align: center;
+}
+
+.header-content {
+	display: table-cell;
+	vertical-align: middle;
+	margin: auto;
+}
+
+.sub-title {
+	color: white;
+	font-size: 2em;
+	line-height: 1.2em;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-family: Ailerons;
+}
+
+.slider-description {
+	color: white;
+	font-size: 1.5em;
+	line-height: 1.2em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: Ailerons;
+}
+
+.ui.button.info-btn {
+	background-color: #0086a7;
+	padding: 20px;
+	color: white;
+	margin: 20px;
+	border-radius: 0;
+	font-family: Raleway;
+	font-weight: 200;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.40);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.40);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.40);
+}
+
+.ui.button.info-btn:hover {
+	background-color: #0086a7;
+	color: white;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.middle-section {
+	text-align: center;
+	height: auto;
+	background-image: url('../images/middle-section.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.middle-section-cards {
+	height: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.ui.five.centered.doubling.cards .card img {
+	border-radius: 0;
+}
+
+.ui.five.centered.doubling.cards .card {
+	text-align: center;
+	border-radius: 0;
+	font-family: didact gothic;
+	font-size: 1.3em;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.40);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.40);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.40);
+}
+
+.projects {
+	text-align: center;
+	height: auto;
+	background-image: url('../images/gradient-background.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.ui.two.doubling.link.cards .card {
+	border-radius: 0;
+	padding: 3px;
+	height: auto;
+	overflow: hidden;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.40);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.40);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.40);
+}
+
+.ui.two.doubling.link.cards .card img{
+	border-radius: 0;
+}
+
+.more-info {
+	text-align: center;
+	height: auto;
+	margin-top: 90px;
+}
+
+.overlay {
+	background: -moz-linear-gradient(left,  rgba(106,195,155,1) 0%, rgba(0,167,157,0.71) 29%, rgba(0,167,157,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(106,195,155,1) 0%,rgba(0,167,157,0.71) 29%,rgba(0,167,157,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(106,195,155,1) 0%,rgba(0,167,157,0.71) 29%,rgba(0,167,157,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ac39b', endColorstr='#0000a79d',GradientType=1 ); /* IE6-9 */
+}
+
+.left-aligned {
+	display: block;
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+	margin: 0;
+}
+
+.right-aligned {
+	display: block;
+	text-align: center;
+}
+
+.slide01 {
+	height: auto;
+	width: 100%;
+	background-image: url('../images/hawaii-websites-meeting.jpg');
+	background-size: cover;
+}
+.slide02 {
+	height: auto;
+	background-image: url('../images/hawaii-websites-camera.jpg');
+	background-size: cover;
+}
+.slide03 {
+	height: auto;
+	background-image: url('../images/hawaii-websites-store.jpg');
+	background-size: cover;
+}
+
+.ryan-barsatan-info-block {
+	overflow: hidden;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.personal-description{
+	font-family: Raleway;
+	font-size: 1em;
+	line-height: 1em;
+}
+
+.centered {
+	text-align: center;
+}
+
+@media only screen and (min-width: 760px) {
+	.header {
+		height: 700px;
+
+	}
+
+	.ui.button.info-btn {
+		font-size: 1.5em;
+	}
+
+	.sub-title {
+		font-size: 2.5em;
+	}
+
+	.slider-description {
+		font-size: 2.5em;
+
+	}
+	.left-aligned {
+		display: inline-block;
+		text-align: left;
+		width: 90%;
+	}
+
+	.right-aligned {
+		display: inline-block;
+
+	}
+	.personal-description {
+		font-size: 2em;
+	}
+
+}
+
+@media only screen and (min-width: 900px){
+	.personal-description {
+		margin-top: 10%;
+	}
+}
+
+
+
+
