@@ -6,6 +6,9 @@ include ('navigation.php');
 
 <html>
 <head>
+	<meta charset="UTF-8">
+	<title>Our Process | Ryan Barsatan Web Developer</title>
+	<meta name="description" content="Ryan is a web developer based in Oahu, Hawaii that can help you create your website. Whether you already have everything planned out, or starting from scratch, Ryan can help create a website that will make your business soar.">
 	<link rel="stylesheet" href="/css/our_process.css">
 	<link rel="stylesheet" href="/css/aos.css">
 	<script src="/js/aos.js"></script>

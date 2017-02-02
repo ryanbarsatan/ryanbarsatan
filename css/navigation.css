@@ -6,6 +6,14 @@
 	src: url(/fonts/Ailerons.otf);
 }
 
+.no-style {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none; 
+	background-color: white;
+	border-style: none;
+}
+
 .ui.fixed.borderless.menu {
 	font-family: Raleway;
 	background-color: white;

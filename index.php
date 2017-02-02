@@ -8,7 +8,6 @@ include ('views/navigation.php');
 	<meta charset="UTF-8">
 	<title>Hawaii Web Developer | Ryan Barsatan</title>
 	<meta name="description" content="Ryan is a web developer based in Oahu, Hawaii that can help you create your website. Whether you already have everything planned out, or starting from scratch, Ryan can help create a website that will make your business soar.">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="/css/home.css">
 	<link rel="stylesheet" href="/css/aos.css">
 	<link rel="stylesheet" href="/css/responsiveslides.css">
@@ -105,7 +104,7 @@ include ('views/navigation.php');
 									<div class="slider-description">We'll work with you to create a site that best suits your business needs</div>
 								</div>
 								<div class="right-aligned">
-									<div class="ui button info-btn">Our Process</div>
+									<div class="ui button info-btn" onclick="window.location.href='/views/our_process.php'">Our Process</div>
 								</div>
 							</div>
 						</div>
@@ -117,7 +116,7 @@ include ('views/navigation.php');
 									<div class="slider-description">We can take beautiful photos to add life and color to your website</div>
 								</div>
 								<div class="right-aligned">
-									<div class="ui button info-btn">Our Process</div>
+									<div class="ui button info-btn" onclick="window.location.href='/views/our_process.php'">Our Process</div>
 								</div>
 							</div>
 						</div>
@@ -129,7 +128,7 @@ include ('views/navigation.php');
 									<div class="slider-description">Easily integrate e-commerce to help your business succeed online</div>
 								</div>
 								<div class="right-aligned">
-									<div class="ui button info-btn">Our Process</div>
+									<div class="ui button info-btn" onclick="window.location.href='/views/our_process.php'">Our Process</div>
 								</div>
 							</div>
 						</div>
