@@ -82,7 +82,7 @@ include ('views/navigation.php');
 				<div class="ui two doubling link cards" data-aos="zoom-in">
 					<a class="card" href="http://daspot.net" target="_blank">
 						<div class="image">
-							<img src="/images/daspot.png" alt="">
+							<img src="/images/daspot.jpg" alt="">
 						</div>
 					</a>
 					<a class="card" href="http://whatsthescoops.com" target="_blank">
